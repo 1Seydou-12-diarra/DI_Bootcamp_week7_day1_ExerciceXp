@@ -14,6 +14,7 @@ Class DifferenceDate{
 }
 }
 // l'instanciation de l'objet $resultat et l'affichage du resultat 
+
 $resultat = new DifferenceDate();
 echo " Difference " . $resultat->difference();
 
