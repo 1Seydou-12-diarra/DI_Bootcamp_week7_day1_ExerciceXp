@@ -1,5 +1,5 @@
 <?php
-class factorial_of_a_number
+class Factorial_of_a_number
 {
   public $nombre;
 
@@ -24,6 +24,6 @@ class factorial_of_a_number
   }
 
 
-$newfactorial = New factorial_of_a_number(5);
+$newfactorial = New Factorial_of_a_number(5);
 echo $newfactorial->result();
 ?>
