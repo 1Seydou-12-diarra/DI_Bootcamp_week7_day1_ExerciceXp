@@ -7,9 +7,9 @@ class factorial_of_a_number
    {
      if (!is_int($nombre))
 	   {
-	      echo "Invalid number ";
-       }
-    $this->nombre = $nombre;
+	       echo "Invalid number ";
+        }
+  $this->nombre = $nombre;
 	}
   public function result()
     {
@@ -20,7 +20,9 @@ class factorial_of_a_number
       }
 	   return $factorial;
 	 }
- }
+
+  }
+
 
 $newfactorial = New factorial_of_a_number(5);
 echo $newfactorial->result();
